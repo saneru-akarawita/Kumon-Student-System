@@ -1,0 +1,19 @@
+ps=cn.prepareStatement("INSERT INTO tbl_list " + " (FirstName,LastName,Email,contact,cdays,subject,bday,bmonth,byear,payment) " + " VALUES(?,?,?,?,?,?,?,?,?)");		
+				ps.setString(1,txtFName.getText());	
+				ps.setString(2,txtLName.getText());
+				ps.setString(3,txtmail.getText());
+				ps.setString(4,txtcontact.getText());
+				ps.setString(5,txtcdays.getText());
+				ps.setString(6,txtsubject.getText());
+				ps.setString(7,txtday.getText());
+				ps.setString(8,txtmonth.getText());
+				ps.setString(9,txtyear.getText());
+				ps.setString(10,txtCash.getText());
+				
+				
+				
+					
+					
+				
+				
+				ps.executeUpdate();
